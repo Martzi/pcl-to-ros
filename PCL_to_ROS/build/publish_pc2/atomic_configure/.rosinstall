@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robot/Ericsson/fuze/PCL_to_ROS/devel/.private/publish_pc2/setup.sh

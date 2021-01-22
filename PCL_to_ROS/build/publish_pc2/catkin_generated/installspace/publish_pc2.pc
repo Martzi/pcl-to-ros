@@ -1,0 +1,8 @@
+prefix=/home/robot/Ericsson/fuze/PCL_to_ROS/install
+
+Name: publish_pc2
+Description: Description of publish_pc2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

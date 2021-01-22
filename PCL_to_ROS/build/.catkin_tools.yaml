@@ -1,0 +1,6 @@
+devel_space: /home/robot/Ericsson/fuze/PCL_to_ROS/devel
+install: false
+install_space: /home/robot/Ericsson/fuze/PCL_to_ROS/install
+profile: default
+source_space: /home/robot/Ericsson/fuze/PCL_to_ROS/src
+workspace: /home/robot/Ericsson/fuze/PCL_to_ROS

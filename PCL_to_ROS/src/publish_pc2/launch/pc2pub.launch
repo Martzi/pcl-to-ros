@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="publish_pc2" name="pcl_publisher" type="pcl_publisher.py" output="screen"/>
+
+    <node pkg="tf" type="static_transform_publisher" name="bl2pc2_broadcaster" args="1 0 0 0 0 0 1 base_link laser_link 100" />
+
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find publish_pc2)/config/rvizconfig.rviz" />
+
+</launch>
